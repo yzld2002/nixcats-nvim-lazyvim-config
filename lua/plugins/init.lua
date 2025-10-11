@@ -99,4 +99,10 @@ return {
       opts.sections.lualine_c[4] = { 'filename', path = 1 }
     end,
   },
+  {
+    'folke/sidekick.nvim',
+    opts = {
+      nes = { enabled = false },
+    },
+  },
 }
